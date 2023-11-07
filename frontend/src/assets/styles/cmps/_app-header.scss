@@ -1,0 +1,29 @@
+.app-header {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        max-width: 8%;
+    }
+    
+    nav{
+
+        display: flex;
+        gap: 20px; 
+
+        a{
+            font-family: quicksand;
+            color: rgb(114, 114, 114);
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover{
+
+                color:rgb(74, 74, 74) ;
+            }
+        }
+    }
+
+}

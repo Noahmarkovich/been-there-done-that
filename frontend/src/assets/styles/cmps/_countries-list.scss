@@ -1,0 +1,58 @@
+.countries-scroll{
+
+    display: flex;
+    position: relative;
+
+
+    &:hover{
+        .nav-btn{
+        display: block;
+        }
+    }
+
+    .nav-btn{
+        background-color: lightgray;
+        position: absolute;
+        top: 50%;
+        background-color: rgba(255, 255, 255, 0.623);
+        font-size: 1.5rem;
+        color: rgb(56, 56, 56);
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        margin: 0 5px;
+        display: none;
+        padding-top: 4px;
+        
+        &.left{
+            z-index: 10;
+
+        }
+        &.right{
+            right: 0;
+        }
+
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.838);
+            color: rgb(0, 0, 0);
+
+        }
+        &:active{
+            background-color: rgba(255, 255, 255, 0.994);
+            color: rgb(0, 0, 0);
+        }
+
+    }
+
+    .countries-list{
+        position: relative;
+        gap: 10px;
+        display: flex;
+        max-width: fit-content;
+        overflow:hidden;
+        scroll-behavior: smooth;
+        transition: scroll 0.3s ease-in-out;
+
+
+    }
+}

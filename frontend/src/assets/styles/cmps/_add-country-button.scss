@@ -1,0 +1,16 @@
+.add-country-button{
+
+    height: 350px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    font-size: 2.5rem;
+    background-color: white;
+    border:none;
+    color: rgba(0, 0, 0, 0.618);
+
+    &:hover{
+        background-color: rgba(226, 226, 226, 0.197);
+    }
+
+
+}

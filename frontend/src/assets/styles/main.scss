@@ -1,0 +1,39 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/links";
+@import "basics/forms";
+
+
+// Views
+@import "views/about-us";
+@import "views/home-page";
+@import "views/country-page";
+@import "views/car-app";
+@import "views/profile-page";
+@import "views/add-country";
+@import "views/review-app";
+@import "views/user-details";
+
+// Components
+@import "cmps/app-header";
+@import "cmps/app-footer";
+@import "cmps/country-preview";
+@import "cmps/countries-list";
+@import "cmps/add-country-button";
+@import "cmps/upload-preview";
+@import "cmps/user-msg";
+@import "cmps/shopping-cart";
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+.profile-page{
+
+    .profile-header{
+
+        background-image: url('../../img/noah-cover.jpg');
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 250px;
+
+
+        .profile-container{
+            width: 700px;
+            height: 350px;
+            padding: 30px;
+            margin-left: 50px;
+            background-color: white;
+            position: absolute;
+            top:50%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            box-shadow: 0 0 3px 0px #5f5f5f2e;
+
+            .profile{
+                object-fit: cover;
+                height: -webkit-fill-available;
+                width: fit-content;
+                aspect-ratio: 1/1;
+
+            }
+        }
+    }
+
+    .intro-profile{
+        height: 650px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 75px;
+        padding: 0 50px;
+        
+
+        .intro-txt{
+            background-image: url('../../img/intro-background.jpg');
+            // max-width: 30%;
+            // margin-left: 100px;
+             background-size: contain;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-repeat: no-repeat;
+            width: 60%;
+
+            .txt-container{
+
+                margin-left: 20%;
+                max-width: 50%;
+
+                h1{
+                    margin-bottom: 30px;
+                    font-family: roboto-bold;
+                    font-size: 3.2rem;
+                    letter-spacing: 2px;
+                    
+                }
+    
+                p{
+                    font-family: quicksand;
+                    font-size: 1.1rem;
+                    color: rgb(63 61 61 / 71%);
+                    font-weight: 600;
+    
+                }
+            }
+
+
+        }
+        img{
+            object-fit: cover;
+            width: auto;
+        }
+    }
+}
